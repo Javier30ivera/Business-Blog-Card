@@ -1,0 +1,73 @@
+.box{
+ width: 500px;
+ height: 640px;
+ background-color:#FFFFFF;
+ box-shadow: 0px 30px 100px 0px rgba(0, 0, 0, 0.5);
+ top: 50%; 
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute; 
+ border-radius: 10px;
+}
+img{
+    width: auto;
+    height: 335px;
+    border-radius: 15px;
+}
+.img1{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    top:30.5%;
+}
+#ola{
+    width: 500px;
+    height: 200px;
+}
+.titulo{
+    font-family: "Poppins", sans-serif;
+    margin:25px;
+    color:#111729;
+    font-size: 1.5rem;
+}
+.texto{
+    color:#677489;
+    font: size 1rem;
+    margin: 10px 25px;
+    font-family: "Lato", sans-serif;
+    line-height: 35%;
+
+}
+.pie{
+    margin-top: 40px;
+    line-height: 25%;
+}
+.Autor{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color:#111729;
+    margin-left: 100px;
+
+}
+.leyenda{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color:#677489;
+    margin-left: 100px;
+    margin-top: 0;
+}
+.separador{
+    width: 100%; 
+    height: 1px; 
+    background-color: #677489; 
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+#avat{
+    border-radius: 100%;
+    width: 60px;
+    height: auto;
+    position:absolute;
+    margin-left: 30px;
+}
